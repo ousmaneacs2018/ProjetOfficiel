@@ -1,0 +1,118 @@
+/*SLIDER*/
+.recent-post-slider.design-1 .post-image-bg{
+    height: 80vh; 
+}
+
+.readmorebtn{
+    background-color: #3C5A9A;
+    margin-top: 10px;
+    padding: 8px 15px 8px!important;
+    border-width: 3px!important;
+    position: absolute;
+    right: 5%;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Barlow Condensed', sans-serif!important;
+}
+
+.recent-post-slider.design-1 .post-content-left{
+    background-color: transparent;
+    right: 0;
+    padding: 0% 5% 5% 5%;
+}
+.recent-post-slider.design-1 .post-content-left a:first-child{
+    color: #3C5A9A;
+    line-height: initial;
+}
+
+.wp-post-content{
+    margin-top: 25px;
+    align-self: end!important;
+}
+
+.post-content-left{
+    display: flex;
+    flex-direction: column;
+}
+.wp-sub-content{display: none;}
+
+.wp-post-title{
+    background-color: #FFF;
+    padding: 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    align-self: flex-end;
+    text-transform: uppercase;
+}
+
+.wp-post-title a{
+    font-family: 'Barlow Condensed', sans-serif!important;
+    font-weight: 700;
+}
+
+.recent-post-slider h2.wp-post-title a{
+    font-size: 65px;
+}
+
+.recent-post-slider.design-1 .slick-arrow {bottom:50% !important; top:auto !important;}
+.recent-post-slider.design-1 .slick-next{right:50px !important;}
+.recent-post-slider.design-1 .slick-prev{left:50px !important;}
+
+/*Responsive*/
+
+@media screen and (max-width: 320px){ /*Smartphones small screen*/
+
+
+    .wp-post-title{padding: 5px 5px 5px;}
+
+    .recent-post-slider h2.wp-post-title a{font-size: 24px;}
+
+    .recent-post-slider.design-1 .post-image-bg{height: 75vh;}
+
+    .recent-post-slider.design-1 .slick-next{right:5px !important;}
+    .recent-post-slider.design-1 .slick-prev{left:5px !important;}
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 599px){ /*Smartphones*/
+
+    .wp-post-title{padding: 8px 8px 8px;}
+
+    .recent-post-slider h2.wp-post-title a{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .recent-post-slider.design-1 .post-image-bg{height: 65vh;}
+
+    .recent-post-slider.design-1 .slick-next{right:20px !important;}
+    .recent-post-slider.design-1 .slick-prev{left:20px !important;}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){ /*Tablet*/
+
+    .recent-post-slider.design-1 .post-content-left{padding: 0% 0% 0% 0%;}
+
+    .wp-post-title{padding: 20px 20px 20px;}
+
+    .recent-post-slider h2.wp-post-title a{font-size: 32px;}
+
+    .recent-post-slider.design-1 .post-image-bg{height: 65vh;}
+
+    .recent-post-slider.design-1 .slick-next{right:40px !important;}
+    .recent-post-slider.design-1 .slick-prev{left:40px !important;}
+    
+}
+
+@media screen and (max-width: 800px){ /*Tablet and below*/
+
+    .readmorebtn{display: none;}
+
+    .recent-post-slider h2.wp-post-title a{text-align: center;}
+
+    .wp-post-title{align-self: center;}
+
+}

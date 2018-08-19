@@ -1,0 +1,1 @@
+			<?php echo do_shortcode('[recent_post_slider design="design-1" media_size="full" show_category_name="false" dots="false" show_date="false" show_author="false" autoplay="false"]'); ?> 

@@ -1,0 +1,12 @@
+/*TABLE CLASSEMENT*/
+.wpcm-standings>table {
+    font-family: 'Barlow Condensed', sans-serif!important;
+    font-size: 20px;
+    color: #707070;
+}
+
+.wpcm-standings>tr{border: none;}
+
+.wpcm-standings>td, th{border: 1px solid #e5e5e5;}
+
+.wpcm-standings>table>tbody>tr>td>img{margin-right: 18px;}
