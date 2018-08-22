@@ -1,0 +1,5 @@
+<label>[text* Nom] </label> <label> [text* Prenon] </label> <label> [email* your-email] </label>
+
+                         <label> Votre message [textarea your-message] </label>
+
+                                              [submit "Envoyer"]
