@@ -1,0 +1,61 @@
+/* Theme Name: blogstyle_child
+Theme URI: http://example.com/twenty-fifteen-child
+Description: Twenty Fifteen Child Theme
+Author: John Doe
+Author URI: http://example.com
+Template: blogstyle
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain: custom */
+
+
+/***** Organigramme*****/
+
+.e_o_c_pro_wrapper_template_1 .pseoc_mid_content {
+    height: 120px;
+    width: 190px;
+    float: left;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 
+}
+.pseoc_mid_content {
+    border: 1px solid #3C5A9A!important;
+}
+
+/*****formulaire*****/
+.wpcf7-form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    text-align:center!important;
+
+}
+.wpcf7-text {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid #707070;
+    padding-left: 30px;
+  
+
+}
+.wpcf7-submit{
+    border: none;
+    align-items: center;
+
+}
+.wpcf7-textarea{
+    border-radius: 0px;
+    margin-top: 50px;
+    width: 60em;
+    height: 15em;
+    border: 1px solid #707070;
+}
+
+/*****Calendar*****/
+.timely{
+font-family: 'Barlow Condensed', sans-serif!important;
+}
+/*****Map*****/
