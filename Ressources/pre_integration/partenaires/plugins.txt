@@ -1,0 +1,20 @@
+Nom du plugin: Random Gallery
+Auteur: David Greenwold
+
+- Installation:
+
+	- Activer le plugin
+	- Aller dans une page
+		- Ajouter un média
+		- Créer une galerie
+		- Téléverser des fichiers
+			-Ajouter les images du dossier "logo_couleur_partenaires"
+		- Créer une nouvelle galerie
+		- Regarder le shortcode générer, exemple: [gallery ids="1,2,3,5,8,13,21"]
+			- Le modifier en: [random-gallery column="5" ids="1,2,3,5,8,13,21" shownum="5"]
+		-Récupérer le shortcode et le mettre dans l'index.php
+
+		<!>J'ai mis les logo en couleur pour pouvoir ensuite appliquer un filtre CSS Noir&blanc (cf.maquette), puis passage en couleur lors du hover <!>
+
+
+
