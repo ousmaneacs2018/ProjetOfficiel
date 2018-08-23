@@ -1,0 +1,11 @@
+Nom du plugin: Youtube Channel Gallery
+
+Youtube API Key: AIzaSyBVCjqzgluDX6zNcQUVRGxE93m5MLocUPI
+
+Youtube Channel ID: UCn-we6qCVUT23rNt6jxRjrg
+
+Installation: 
+
+>Page CSP TV
+ >Themify
+  >Widget 'Youtube Channel Gallery'

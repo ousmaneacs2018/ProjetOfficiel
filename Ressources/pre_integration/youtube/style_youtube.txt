@@ -1,0 +1,48 @@
+/*Youtube*/
+
+.ytccf{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.widgettitle{
+    font-size: 2rem;
+    font-family: "Barlow condensed";
+    font-weight: 600;
+    width: 10%;
+    TEXT-ALIGN: CENTER;
+    PADDING: 10px;
+    margin-bottom: 30px;
+    color: #3C5A9A;
+    border: 1px solid #3C5A9A;
+}
+
+.ytcplayer-wrapper{
+    width: 80%;
+    margin: auto;
+}
+
+.ytcplayercontent{
+    text-align: center;
+    padding: 30px 0 30Px!important;
+    font-size: 1.8rem;
+    font-family: "Barlow condensed";
+}
+
+.ytcplayer-wrapper{
+    width: 80%!important;
+    margin: auto!important;
+}
+
+
+
+.ytc-thumbnails{width: 80%;}
+
+.ytc-pagination{
+    font-family: "Barlow condensed";
+    font-size: 1.4rem;
+}
+
+.ytc-promotion{display: none;}
+
+.ytc-youtubelink{display: none;}
