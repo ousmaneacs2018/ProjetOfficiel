@@ -1,0 +1,3 @@
+- J'ai utilisé des classes dont certaines déja existantes
+- Supprimer les anciennes classes pour éviter les doublons
+- Responsive à rajouter dans le media query existant (<1024)

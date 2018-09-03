@@ -1,0 +1,60 @@
+﻿/*Post*/
+
+.left{
+    height: 40%;
+    overflow: hidden;
+}
+
+.left a img{
+    height: auto;
+    width: 100%;
+}
+
+.post .textepost{
+    margin-top: 10%;
+    margin: auto;
+    line-height: 1.4;
+    text-align: justify;
+    font-family: "Arimo";
+}
+
+.textepost p{
+    max-height: 11vh;
+    overflow: hidden;
+}
+
+.underline{
+    font-family: 'barlow condensed';
+    color: #3C5A9A;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    float: right;
+    padding-top: 10px;
+}
+
+.post-articles-container{
+    width: 80%;
+    margin: auto;
+}
+
+.post hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.divArticle>.post{
+    display:  flex;
+    flex-direction:  column;
+    justify-content:  center;
+    align-items:  center;
+}
+
+@media screen and (max-width: 1024px) {
+    .divArticle{
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .divArticle>.post{width: 100%;}
+}
